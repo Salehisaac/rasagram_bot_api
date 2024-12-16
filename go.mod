@@ -1,3 +1,3 @@
-module github.com/Salehisaac/rasagram_bot_api/v4   
+module github.com/Salehisaac/rasagram_bot_api/v6   
 
 go 1.16
