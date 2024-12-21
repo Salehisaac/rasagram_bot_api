@@ -272,7 +272,7 @@ func TestMessageEntityIsTextLink(t *testing.T) {
 func TestFileLink(t *testing.T) {
 	file := File{FilePath: "test/test.txt"}
 
-	if file.Link("token") != "http://192.168.130.177:1001/file/bottoken/test/test.txt" {
+	if file.Link("token") != "https://rasagram-api.rso-co.ir/file/bottoken/test/test.txt" {
 		t.Fail()
 	}
 }

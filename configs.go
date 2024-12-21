@@ -13,9 +13,9 @@ import (
 const (
 	// APIEndpoint is the endpoint for all API methods,
 	// with formatting for Sprintf.
-	APIEndpoint = "http://192.168.130.177:1001/bot%s/%s"
+	APIEndpoint = "https://rasagram-api.rso-co.ir/bot%s/%s"
 	// FileEndpoint is the endpoint for downloading a file from Telegram.
-	FileEndpoint = "http://192.168.130.177:1001/file/bot%s/%s"
+	FileEndpoint = "https://rasagram-api.rso-co.ir/file/bot%s/%s"
 )
 
 // Constant values for ChatActions
